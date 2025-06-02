@@ -4,13 +4,13 @@ import Footer from './Footer'
 import Navbar from './Navbar'
 
 
-export default function Layout(children, title, description) {
+export default function Layout({children, title, description}) {
   return (
     <>
     
     <Head>
-        <tittle>{title || 'Default Title'}</tittle>
-        <meta> name="description" content={description || 'Default Description'}</meta>
+        <title>{title || 'Default Title'}</title>
+        <meta name="description" content={description || 'Default Description'} /> 
     </Head>
     <Navbar />
     {children}

@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '@/components/Layout'
 
-export default function nosotros() {
+export default function About() {
   return (
     <Layout title ="ABout Us" description="Learn more about us and our mission ">
         <div className='Container mx-auto p-4'>
