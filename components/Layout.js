@@ -1,20 +1,18 @@
 import Head from 'next/head'
 import React from 'react'
-import Footer from './Footer'
 import Navbar from './Navbar'
-
+import Footer from './Footer'
 
 export default function Layout({children, title, description}) {
   return (
     <>
-    
-    <Head>
+      <Head>
         <title>{title || 'Default Title'}</title>
-        <meta name="description" content={description || 'Default Description'} /> 
-    </Head>
-    <Navbar />
-    {children}
-    <Footer />
+        <meta name="description" content={description || 'Default description'} />
+      </Head>
+      <Navbar />
+      {children}
+      <Footer />
     </>
   )
 }

@@ -16,7 +16,7 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <Layout title="Home" description="Welcome to the home page">
-        <h1>Welcome to the Home Page</h1>
+      <h1>Welcome to the Home Page</h1>
     </Layout>
   );
 }
